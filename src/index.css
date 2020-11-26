@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #222222;
+  color: white;
+}
+
+.map {
+  height: 100vh;
+  position: relative;
+}
+
+.location-icon {
+  font-size: 2rem;
+  color: orange;
+  cursor: pointer;
+}
+
+.info-card {
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  width: 200px;
+}
